@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero__section {
+    height: 100vh;
+    background-image: url('./img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__content {
+    text-align: center;
+    z-index: 1;
+}
+
+.hero__content h1 {
+    color: #fff;
+    font-size: 4rem;
+
+
+}
+
+.hero__content h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.hero__content p {
+    color: #fff;
+    font-size: 20px;
+    margin: 1.5rem 0;
+}
+
+.line {
+    height: 15px;
+    color: rebeccapurple;
+    width: 100%;
+    border-bottom: 8px solid #222;
+    position: relative;
+}
