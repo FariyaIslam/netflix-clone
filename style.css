@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .hero__section {
     height: 100vh;
     background-image: url('./img/bg.jpg');
@@ -44,4 +54,51 @@
     width: 100%;
 }
 
-.tv__section {}
+.tv__section {
+    height: 450px;
+    width: 100vw;
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv__content {
+    display: flex;
+    flex: 1;
+    color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.tv__img {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.video {
+    position: absolute;
+    top: 99px;
+    z-index: 1;
+    width: 308px;
+}
+
+.tv__img img {
+    width: 80%;
+}
+
+.tv__content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.tv__content p {
+    font-size: 20px;
+}
