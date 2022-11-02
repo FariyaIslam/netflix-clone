@@ -39,13 +39,9 @@
 }
 
 .line {
-    height: 15px;
-    color: rebeccapurple;
+    height: 10px;
+    background-color: gray;
     width: 100%;
-    border-bottom: 8px solid #222;
-    position: relative;
 }
 
-.tv__section {
-    
-}
+.tv__section {}
