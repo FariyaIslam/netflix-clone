@@ -135,3 +135,21 @@ body {
     font-weight: 400;
     margin-top: 1rem;
 }
+
+.watch__parent {
+    height: 20vh;
+    color: white;
+    margin: 4rem 6rem;
+}
+
+.watch__parent h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.watch__parent p {
+    font-size: 24px;
+    font-weight: 400;
+}
