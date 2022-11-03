@@ -153,3 +153,36 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.kids__parent {
+    height: 75vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.kids__img {
+    width: 50%;
+}
+
+.kids__parent img {
+    width: 90%;
+    margin-top: 5rem;
+}
+
+.kids__content {
+    width: 50%;
+}
+
+.kids__content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.kids__content p {
+    font-size: 26px;
+    font-weight: 400;
+}
