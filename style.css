@@ -115,6 +115,11 @@ body {
     width: 50%;
 }
 
+.download__img img {
+    width: 80%;
+
+}
+
 .download__content {
     width: 50%;
     color: #fff;
@@ -125,3 +130,8 @@ body {
     font-weight: 600;
 }
 
+.download__content p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
