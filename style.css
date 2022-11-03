@@ -104,5 +104,23 @@ body {
 }
 
 .download__section {
-    height: 70vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download__img {
+    width: 50%;
+}
+
+.download__content {
+    width: 50%;
+    color: #fff;
+}
+
+.download__content h1 {
+    font-size: 50px;
+    font-weight: 500;
 }
