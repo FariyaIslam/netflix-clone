@@ -217,3 +217,44 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.faq__parent {
+    margin-top: 3rem;
+}
+
+
+.faq {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.faq h1 {
+    padding-bottom: 48px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+
+}
+
+.questions li {
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: rgb(30, 30, 30);
+    text-align: left;
+    width: 50%;
+
+}
+
+.faq p {
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
