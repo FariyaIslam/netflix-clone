@@ -105,6 +105,16 @@ body {
     opacity: 0.9;
 }
 
+.btn-lg {
+    position: absolute;
+    right: 0;
+    bottom: -8vh;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.5rem;
+    height: 36px;
+    width: 14rem;
+}
+
 .line {
     height: 8px;
     background-color: rgb(34, 34, 34);
