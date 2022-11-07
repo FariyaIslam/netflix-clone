@@ -302,3 +302,23 @@ body {
     font-size: 1.2rem;
     font-weight: 200;
 }
+
+.footer__parent {
+    max-width: 70%;
+    margin: 1rem auto;
+}
+
+.footer__parent p {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer__cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer__parent li {
+    line-height: 2;
+}
