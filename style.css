@@ -320,5 +320,18 @@ body {
 }
 
 .footer__parent li {
-    line-height: 2;
+    line-height: 2.4;
+
+}
+
+.footer__parent ul {
+    list-style: none;
+
+}
+
+.footer__cols a {
+    color: #999999;
+    font-size: 0.9rem;
+    text-decoration: none;
+
 }
